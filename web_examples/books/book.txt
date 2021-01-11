@@ -1,0 +1,8 @@
+Book Title
+Book Description
+models/props_lab/binderblue.mdl
+book_item_id
+|Header 1
+Body Text 1
+|Header 2
+Body Text 2

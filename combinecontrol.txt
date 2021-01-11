@@ -1,0 +1,7 @@
+"CombineControl"
+{
+	"base"			"base"
+	"title"			"CombineControl"
+	"menusystem" 	"1"
+	"maps"			"^rp_"
+}
