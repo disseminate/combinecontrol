@@ -75,7 +75,7 @@ if( CLIENT ) then
 	
 	local function nRemoveItem( len )
 		
-		local k = net.ReadUInt( 24 );
+		local k = net.ReadFloat();
 		
 		LocalPlayer():RemoveItem( k );
 		
@@ -385,7 +385,7 @@ function meta:ThrowOutItem( k )
 		table.remove( self.Inventory, k );
 		
 		net.Start( "nRemoveItem" );
-			net.WriteUInt( k, 32 );
+			net.WriteFloat( k );
 			net.WriteBit( true );
 		net.SendToServer();
 		
