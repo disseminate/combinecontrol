@@ -102,7 +102,7 @@ else
 	
 	local function nRemoveItem( len, ply )
 		
-		local k = net.ReadUInt( 24 );
+		local k = net.ReadFloat();
 		local s = net.ReadBit();
 		
 		ply:RemoveItem( k, s );
